@@ -66,7 +66,7 @@ public final class EnchantCmd extends Command
 				continue;
 			}
 			
-			stack.addEnchantment(enchantment, 127);
+			stack.addEnchantment(enchantment, 32767);
 		}
 	}
 	
